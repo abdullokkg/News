@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 09:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: app/models.py:14
+msgid "slug"
+msgstr ""
+
+#: app/models.py:16 app/models.py:55
+msgid "name"
+msgstr "ismi"
+
+#: app/models.py:51
+msgid "Kategoriya"
+msgstr ""
+
+#: app/models.py:52
+msgid "Kategoriyalar"
+msgstr ""
+
+#: app/models.py:59
+msgid "Tag"
+msgstr ""
+
+#: app/models.py:60
+msgid "Taglar"
+msgstr ""
+
+#: app/models.py:64
+msgid "Chop Etilgan"
+msgstr ""
+
+#: app/models.py:65
+msgid "Qoralama"
+msgstr ""
+
+#: app/models.py:66
+msgid "author"
+msgstr "avtor"
+
+#: app/models.py:67
+msgid "title"
+msgstr "nomi"
+
+#: app/models.py:71
+msgid "status"
+msgstr ""
+
+#: app/models.py:87
+msgid "Blog"
+msgstr ""
+
+#: app/models.py:88
+msgid "Bloglar"
+msgstr ""
+
+#: app/models.py:99
+msgid "Comment"
+msgstr ""
+
+#: app/models.py:100
+msgid "Commentlar"
+msgstr ""
+
+#: templates/base.html:57
+msgid "contact us"
+msgstr "Aloqa"
+
+#: templates/base.html:67
+msgid "login"
+msgstr "Kirish"
+
+#: templates/base.html:69
+msgid "menu"
+msgstr "Menu"
+
+#: templates/base.html:145
+msgid "home"
+msgstr "Bosh-sahifa"
+
+#: templates/base.html:147
+msgid "sport"
+msgstr "Sport"
+
+#: templates/base.html:171
+msgid "technology"
+msgstr "Tehnologiya"
+
+#: templates/base.html:195
+msgid "pages"
+msgstr "sahifalar"
+
+#: templates/base.html:225
+msgid "Contact"
+msgstr "Aloqa"
+
+#: templates/index.html:9
+msgid "Trending"
+msgstr "Trendagi"
+
+#: templates/index.html:91
+msgid "Recent news"
+msgstr "Ohirgi yangiliklar"

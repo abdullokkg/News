@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: app/models.py:14
+msgid "slug"
+msgstr "Слуг"
+
+#: app/models.py:16 app/models.py:55
+msgid "name"
+msgstr "имя"
+
+#: app/models.py:51
+msgid "Kategoriya"
+msgstr "категория"
+
+#: app/models.py:52
+msgid "Kategoriyalar"
+msgstr "категории"
+
+#: app/models.py:59
+msgid "Tag"
+msgstr "тег"
+
+#: app/models.py:60
+msgid "Taglar"
+msgstr "теги"
+
+#: app/models.py:64
+msgid "Chop Etilgan"
+msgstr "печатанный"
+
+#: app/models.py:65
+msgid "Qoralama"
+msgstr "черновик"
+
+#: app/models.py:66
+msgid "author"
+msgstr "автор"
+
+#: app/models.py:67
+msgid "title"
+msgstr "названия"
+
+#: app/models.py:71
+msgid "status"
+msgstr "статус"
+
+#: app/models.py:87
+msgid "Blog"
+msgstr "блог"
+
+#: app/models.py:88
+msgid "Bloglar"
+msgstr "блоги"
+
+#: app/models.py:99
+msgid "Comment"
+msgstr "комент"
+
+#: app/models.py:100
+msgid "Commentlar"
+msgstr "коменты"
+
+#: templates/base.html:57
+msgid "contact us"
+msgstr "Связаться"
+
+#: templates/base.html:67
+msgid "login"
+msgstr "Логин"
+
+#: templates/base.html:69
+msgid "menu"
+msgstr "Меню"
+
+#: templates/base.html:145
+msgid "home"
+msgstr "Главный"
+
+#: templates/base.html:147
+msgid "sport"
+msgstr "Спорт"
+
+#: templates/base.html:171
+msgid "technology"
+msgstr "Технология"
+
+#: templates/base.html:195
+msgid "pages"
+msgstr "Страницы"
+
+#: templates/base.html:225
+msgid "Contact"
+msgstr "Связаться"
+
+#: templates/index.html:9
+msgid "Trending"
+msgstr "В тренде"
+
+#: templates/index.html:91
+msgid "Recent news"
+msgstr "Последние новости"

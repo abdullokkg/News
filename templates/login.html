@@ -1,0 +1,160 @@
+{% extends 'base.html' %}
+{% block content %}
+    <!-- ne inner title start -->
+    <div class="ne_inner_title_main_section">
+        <div class="ne_inner_title_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                    <div class="ne_ts_inner_wrapper ne_ts_title_inner_wrapper">
+                        <div class="ne_tran_label_wrapper">
+                            <h3>Trending</h3>
+                        </div>
+                        <div class="ne_tranding_slider_wrapper">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="ne_inner_title_nev_wrapper">
+                        <ul>
+                            <li><i class="fa fa-home"></i> <a href="#">Home</a>&nbsp;&nbsp; ></li>
+                            <li><i class="fa fa-folder-open"></i> Login</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ne inner title End -->
+    <!-- weapon login wrapper start -->
+    <div class="login_section">
+        <!-- login_form_wrapper -->
+        <form method="post">
+            {% csrf_token %}
+            {% include 'partials/_flash_messages.html' %}
+            <div class="login_form_wrapper">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="ne_login_heading_main_wrapper">
+                                <h2>Login</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        
+                        <div class="col-md-8 col-md-offset-2">
+                            <!-- login_wrapper -->
+
+                             
+                            <div class="login_wrapper">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
+                                        <a href="#" class="btn btn-primary" id="fb_btn"> <span>Login with Facebook</span><i class="fa fa-facebook"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6"> <a href="#" class="btn btn-primary google-plus"> Login  with Google <i class="fa fa-google"></i> </a>
+                                    </div>
+                                </div>
+                                <h2>or</h2>
+                                <div class="formsix-pos">
+                                    <div class="form-group i-email">
+                                        <input type="text" class="form-control" name="username" required="" id="email2" placeholder="Username*">
+                                    </div>
+                                </div>
+                                <div class="formsix-e">
+                                    <div class="form-group i-password">
+                                        <input type="password" class="form-control" name="password" id="password2" placeholder="Password *">
+                                    </div>
+                                </div>
+                                <div class="login_remember_box">
+                                    <label class="control control--checkbox">Remember me
+                                        <input type="checkbox"> <span class="control__indicator"></span>
+                                    </label> <a href="#" class="forget_password">
+                                        Forgot Password
+                                    </a>
+                                </div>
+                                <div class="login_btn_wrapper"> 
+                                    <button class="btn btn-primary login_btn"> login </button>
+                                </div>
+                                <div class="login_message">
+                                    <p>Don’t have an account ? <a href="{% url 'register' %}"> Register Now </a>
+                                    </p>
+                                </div>
+                            </div>
+                            <p>In case you are using a public/shared computer we recommend that you logout to prevent any un-authorized access to your account</p>
+                            <!-- /.login_wrapper-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- /.login_form_wrapper-->
+    </div>
+    <!-- weapon login wrapper end -->
+    <!-- prs patner slider Start -->
+    <div class="prs_patner_main_section_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="prs_pn_slider_wraper">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p1.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p2.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p3.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p4.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p5.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p6.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- prs patner slider End -->
+{% endblock %}

@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/models.py:14
+msgid "slug"
+msgstr ""
+
+#: app/models.py:16 app/models.py:55
+msgid "name"
+msgstr ""
+
+#: app/models.py:51
+msgid "Kategoriya"
+msgstr "Category"
+
+#: app/models.py:52
+msgid "Kategoriyalar"
+msgstr "Categories"
+
+#: app/models.py:59
+msgid "Tag"
+msgstr ""
+
+#: app/models.py:60
+msgid "Taglar"
+msgstr "Tags"
+
+#: app/models.py:64
+msgid "Chop Etilgan"
+msgstr "Published"
+
+#: app/models.py:65
+msgid "Qoralama"
+msgstr "Draft"
+
+#: app/models.py:66
+msgid "author"
+msgstr ""
+
+#: app/models.py:67
+msgid "title"
+msgstr ""
+
+#: app/models.py:71
+msgid "status"
+msgstr ""
+
+#: app/models.py:87
+msgid "Blog"
+msgstr ""
+
+#: app/models.py:88
+msgid "Bloglar"
+msgstr "Blogs"
+
+#: app/models.py:99
+msgid "Comment"
+msgstr ""
+
+#: app/models.py:100
+msgid "Commentlar"
+msgstr "Comments"
+
+#: templates/base.html:57
+msgid "contact us"
+msgstr ""
+
+#: templates/base.html:67
+msgid "login"
+msgstr ""
+
+#: templates/base.html:69
+msgid "menu"
+msgstr ""
+
+#: templates/base.html:145
+msgid "home"
+msgstr ""
+
+#: templates/base.html:147
+msgid "sport"
+msgstr ""
+
+#: templates/base.html:171
+msgid "technology"
+msgstr ""
+
+#: templates/base.html:195
+msgid "pages"
+msgstr ""
+
+#: templates/base.html:225
+msgid "Contact"
+msgstr ""
+
+#: templates/index.html:9
+msgid "Trending"
+msgstr ""
+
+#: templates/index.html:91
+msgid "Recent news"
+msgstr ""

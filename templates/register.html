@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+{% block content %}
+    <!-- ne inner title start -->
+    <div class="ne_inner_title_main_section">
+        <div class="ne_inner_title_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                    <div class="ne_ts_inner_wrapper ne_ts_title_inner_wrapper">
+                        <div class="ne_tran_label_wrapper">
+                            <h3>Trending</h3>
+                        </div>
+                        <div class="ne_tranding_slider_wrapper">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="ne_inner_title_nev_wrapper">
+                        <ul>
+                            <li><i class="fa fa-home"></i> <a href="#">Home</a>&nbsp;&nbsp; ></li>
+                            <li><i class="fa fa-folder-open"></i> Register</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ne inner title End -->
+    <!--register area start here-->
+    <div class="register_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="ne_login_heading_main_wrapper">
+                        <h2>Register</h2>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="register_wrapper_box">
+                        <div class="register_left_form">
+                            <div class="jp_regiter_top_heading">
+                                <p>Fields with * are mandetory</p>
+                            </div>
+                            <div class="row clearfix">
+                                <!--Form Group-->
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="username" value="" placeholder="Username*">
+                                </div>
+                                <!--Form Group-->
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input type="text" name="email" value="" placeholder="Email*">
+                                </div>
+                                <!--Form Group-->
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input type="password" name="password1" value="" placeholder="password*">
+                                </div>
+                                <!--Form Group-->
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <input type="password" name="password2" value="" placeholder="re-enter password*">
+                                </div>
+                                <!--Form Group-->
+                                </div>
+                                <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="check-box text-center">
+                                        <input type="checkbox" name="shipping-option" id="account-option_2">&ensp;
+                                        <label for="account-option_2" class="label_2">I agreed to the <a href="#" class="check_box_anchr">Terms and Conditions</a> governing the use of weapon store</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="login_btn_wrapper register_btn_wrapper login_wrapper register_wrapper_btn margin_zero"> 
+                                <a href="{% url 'login' %}"><button class="btn btn-primary login_btn">register</button></a>
+                            </div>
+                            <div class="login_message">
+                                <p>Already a member? <a href="{% url 'login' %}"> Login Here </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p class="btm_txt_register_form">In case you are using a public/shared computer we recommend that you logout to prevent any un-authorized access to your account</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--register area start end-->
+    <!-- prs patner slider Start -->
+    <div class="prs_patner_main_section_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="prs_pn_slider_wraper">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p1.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p2.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p3.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p4.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p5.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="prs_pn_img_wrapper">
+                                    <img src="images/content/p6.jpg" alt="patner_img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- prs patner slider End -->
+{% endblock %}

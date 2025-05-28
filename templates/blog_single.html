@@ -1,0 +1,267 @@
+{% extends 'base.html' %}
+{% block content %}
+    <!-- ne inner title start -->
+    <div class="ne_inner_title_main_section">
+        <div class="ne_inner_title_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                    <div class="ne_ts_inner_wrapper ne_ts_title_inner_wrapper">
+                        <div class="ne_tran_label_wrapper">
+                            <h3>Trending</h3>
+                        </div>
+                        <div class="ne_tranding_slider_wrapper">
+                             <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="ne_ts_inner_content">
+                                        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh</p>
+                                        <h3 class="hidden-sm"><i class="fa fa-calendar"></i> &nbsp;25 OCT, 2022</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="ne_inner_title_nev_wrapper">
+                        <ul>
+                            <li><i class="fa fa-home"></i> <a href="#">Home</a>&nbsp;&nbsp; ></li>
+                            <li><i class="fa fa-folder-open"></i> CWG 2018 from today</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ne inner title End -->
+    <!--resent news Start-->
+    <div class="ne_recent_news_main_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="ne_recent_left_side_wrapper">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="ne_busness_main_slider_wrapper ne_busness_main_slider_wrapper_lifestyle">
+                                            <div class="ne_recent_heading_main_wrapper">
+                                                <h2>{{ sp0.category }}</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="ne_sport_slider_wrapper ne_sport_slider_wrapper_single">
+                                            <div class="row">
+
+                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="ne_re_left_top_main_wrapper">
+                                                        <div class="ne_re_left_img_main_wrapper yellow">
+                                                            <img style="width: 100%; max-height: 500px; object-fit: cover;" src="{{ sp0.imageURL }}" alt="img">
+                                                            <h2>{{ sp0.category }}</h2>
+                                                        </div>
+                                                        <div class="ne_re_left_img_cont_main_wrapper ne_re_left_img_cont_main_swg_blog_cont_wrapper">
+                                                            <h3><a href="#">{{ sp0.title }}</a></h3>
+                                                            <ul class="ne_re_social1_wrapper">
+                                                                <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-calendar"></i> &nbsp;{{ sp0.datetime }}</a>
+                                                                </li>
+                                                                <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-thumbs-up"></i> &nbsp;{{ sp0.like.count }}</a>
+                                                                </li>
+                                                                <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-comments"></i> &nbsp;645 Comments</a>
+                                                                </li>
+                                                            </ul>
+                                                            <p>{{ sp0.text|truncatewords:20|safe }}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                                        <div class="ne_busness_main_slider_wrapper ne_busness_main_slider_wrapper_lifestyle_heading">
+                                            <div class="ne_recent_heading_main_wrapper">
+                                                <h2>Sharing is Caring</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                                        <div class="ne_blog_sidebar_shair_icon_main_wrapper">
+                                            <div class="btc_blog_cate_inner_social_fb_wrapper"> <a href="#"><i class="fa fa-facebook"></i><br> 4.1 M<br>Fans</a>
+                                            </div>
+                                            <div class="btc_blog_cate_inner_social_tw_wrapper"> <a href="#"><i class="fa fa-twitter"></i><br> 178<br>Followers</a>
+                                            </div>
+                                            <div class="btc_blog_cate_inner_social_gp_wrapper"> <a href="#"><i class="fa fa-google-plus"></i><br> 884.0 K<br>Followers</a>
+                                            </div>
+                                            <div class="btc_blog_cate_inner_social_vimo_wrapper"> <a href="#"><i class="fa fa-vimeo"></i><br> 323 K<br>Subscriber</a>
+                                            </div>
+                                            <div class="btc_blog_cate_inner_social_yt_wrapper"> <a href="#"><i class="fa fa-youtube-play"></i><br> 323 K<br>Subscriber</a>
+                                            </div>
+                                            <div class="btc_blog_cate_inner_social_shair_wrapper"> <a href="#"><i class="fa fa-share-alt"></i><br> 7.4 K<br>Followers</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="ne_busness_main_slider_wrapper ne_busness_main_slider_wrapper_lifestyle_heading">
+                                            <div class="ne_recent_heading_main_wrapper">
+                                                <h2>About Author</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="ne_blogto_testi_slider_wrapper">
+
+                                            <div class="ne_boto_testi_content_wrapper">
+                                                <div class="ne_boto_testi_img">
+                                                    <img style="width: 250px ; height: 250px; object-fit: cover ;" src="{{ sp0.author.image.url }}" alt="img">
+                                                </div>
+                                                <div class="ne_boto_testi_img_cont">
+                                                    <h3><a href="#">{{ sp0.author.get_full_name }}</a></h3>
+                                                    <p class="ddddd"><a href="#"><i class="fa fa-user"></i> {{ sp0.author.role }}</a></p>
+                                                    <h4>{{ sp0.author.bio }}</h4>
+                                                    <ul>
+                                                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li><a href="#"><i class="fa fa-youtube-play"></i></a>
+                                                        </li>
+                                                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li><a href="#"><i class="fa fa-google-plus"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="ne_busness_main_slider_wrapper ne_busness_main_slider_wrapper_lifestyle_heading">
+                                            <div class="ne_recent_heading_main_wrapper">
+                                                <h2>leave a comment</h2>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            {% include "partials/_flash_messages.html" %}
+                                            <form method="post">
+                                                {% csrf_token %}
+                                                <input type="hidden" name="blog" value="{{ sp0.id }}">
+                                                <textarea class="form-control" name="text"></textarea>
+                                                {% if request.user.is_authenticated %}
+                                                    <button class="btn btn-success" style="margin-top: 20px;">Yuborish</button>
+                                                {% else %}
+                                                    <a href="{% url 'login' %}" class="btn btn-success" style="margin-top: 20px;">login</a>
+                                                {% endif %}
+                                            </form>
+                                        </div>
+                                        <div class="ne_comment_list_wrapper">
+                                            <ul>
+                                                <li><a href="#">3 Comments</a>
+                                                </li>
+                                                <li><a href="#">New 24 Template</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="ne_comment_list_wrapper2">
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-heart"></i> Recommend</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        {% for com in comment %}
+                                            <div class="ne_comment_list_main_secton_wrapper ne_comment_list_main_secton_wrapper1">
+                                                <div class="ne_commnet_list_img_section">
+                                                    <img src="{{ com.user.image.url }}" alt="img">
+                                                </div>
+                                                <div class="ne_commnet_list_img_cont_section">
+                                                    <h3>{{ com.user.name }}</h3>
+                                                    <p>{{ com.text }}<span><a href="#">See More</a></span>
+                                                    </p>
+                                                    <ul>
+                                                        <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-share-alt"></i> &nbsp;Share</a>
+                                                        </li>
+                                                        <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-thumbs-up"></i> &nbsp;{{ com.like.count }} Like</a>
+                                                        </li>
+                                                        <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-reply"></i> &nbsp;reply</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="ne_busness_main_slider_wrapper">
+                                                    <div class="ne_recent_heading_main_wrapper">
+                                                        <h2>Business</h2>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                <div class="neww_businees_slider_wrapper">
+                                                    <div class="owl-carousel owl-theme">
+                                                        {% for bs in business%}
+                                                            <div class="item">
+                                                                <div class="ne_re_left_top_main_wrapper">
+                                                                    <div class="ne_re_left_img_main_wrapper">
+                                                                        <img src="{{ bs.imageURL }}" alt="img">
+                                                                        <h2>{{ bs.category.name }}</h2>
+                                                                    </div>
+                                                                    <div class="ne_re_left_img_cont_main_wrapper ne_buss_img_cont_main_wrapper">
+                                                                        <h3><a href="#">{{ bs.title }}</a></h3>
+                                                                        <ul class="ne_re_social1_wrapper">
+                                                                            <li data-animation="animated fadeInLeft"><a href="#"><i class="fa fa-calendar"></i> &nbsp;{{ bs.datetime }}</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--resent news End-->
+    <!-- prs patner slider Start -->
+    <div class="prs_patner_main_section_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="prs_pn_slider_wraper">
+                        <div class="owl-carousel owl-theme">
+                            {% for bs in business%}
+                                <div class="item">
+                                    <div class="prs_pn_img_wrapper">
+                                        <img src="{{ bs.imageURL }}" alt="patner_img">
+                                    </div>
+                                </div>
+                            {% endfor %}
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- prs patner slider End -->
+    {% endblock %}
