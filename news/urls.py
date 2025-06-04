@@ -30,7 +30,7 @@ urlpatterns += i18n_patterns(
     path('',include('app.urls')),
     path("ckeditor5/", include('django_ckeditor_5.urls')),
     path('',include('user.urls')),
-)
+) 
 
 
 if settings.DEBUG:
